@@ -1,0 +1,39 @@
+#nav-bar {
+    font-family: "Roboto Mono";
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    align-items: center;
+    background-color: #FFEDD6;
+    width: 80vw;
+    height: 8vh;
+    margin: 5vh 10vw;
+    border-bottom: 1px solid #482728;
+}
+
+#nav-bar-ul {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+#nav-bar-ul li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:#482728;
+    font-size: 20px;
+}
+
+.logo {
+    color:#482728;
+    padding-top: 6vh;
+    padding-left: 2vw; 
+    font-size: 11vh;
+}
+
+.logo:link {
+    color: #482728;
+}

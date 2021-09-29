@@ -1,0 +1,34 @@
+.color-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 36vw;
+    height: 100vh
+}
+
+.color-grid div {
+    height: 25vh;
+}
+
+.color-grid div div {
+    width: 12vw;
+}
+
+.orange-FFAF47 {
+    background-color: #FFAF47;
+    color: #FFAF47;
+}
+
+.beige-FFEDD6 {
+    background-color: #FFEDD6;
+    color: #FFEDD6;
+}
+
+.pink-559CAD {
+    background-color: #559CAD;
+    color: #559CAD;
+}
+
+.brown-F2545B {
+    background-color: #F2545B;
+    color:#F2545B;
+}

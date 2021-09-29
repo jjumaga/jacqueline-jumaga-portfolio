@@ -1,0 +1,96 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    color: #482728;
+}
+
+#home-page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #FFEDD6;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    font-size: 13vh;
+}
+
+.sub-header {
+    font-size: 5vh;
+    width: auto;
+}
+
+.learn-more-btn {
+    display: flex;
+    align-self: flex-end;
+    font-family: "Crimson-text";
+}
+
+.home-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 50px;
+    width: 64vw;
+    height: 100vh;
+}
+
+#section-1{
+    display: flex;
+}
+
+#section-2 {
+    display: flex;
+}
+
+#section-3 {
+    display: flex;
+}
+
+.home-about {
+    align-items: flex-end;
+    background-color: #FFAF47;
+}
+
+.descriptions {
+    font-size: 20px;
+    width: 40vw;
+}
+
+.home-work {
+    background-color: #F2545B;
+}
+
+.home-skills {
+    align-items: flex-end;
+    background-color: #559CAD;
+}
+
+.skills-descriptions {
+    display: flex;
+}
+
+.skills-descriptions div {
+    width: 33.3%;
+    padding: 5px;
+}
+
+.font-crimson-text {
+    font-family: "Roboto Mono";
+    font-weight:700;
+    //font-style: italic;
+}
+
+.font-prompt-thick {
+    font-family: "Prompt";
+    font-weight: 600;
+}
+
+.font-prompt-thin {
+    font-family: "Prompt";
+    font-weight: 100;
+}
