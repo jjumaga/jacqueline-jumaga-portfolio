@@ -1,0 +1,43 @@
+$beige:#FFEDD6;
+$brown:#482728;
+
+.contact-header {
+    font-size: 15vh;
+}
+
+.contact-details {
+    background-color: $beige;
+}
+
+.contact-flex {
+    display: flex;
+    //align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+.contact-flex h2 {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 5vh;
+}
+
+.contact-flex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 20vw;
+}
+
+.contact-flex p {
+    font-size: 3vh;
+}
+
+.contact-flex a {
+    color:$brown;
+    font-size: 8vh;
+    padding-top: 5vh;
+}

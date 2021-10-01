@@ -11,44 +11,27 @@ $beige:#FFEDD6;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 15vh;
+    height: 13vh;
+    width: 100vw;
     background-color:$beige;
-}
-
-.footer-left {
-    width: 70vw;
-}
-
-.footer-right {
-    width: 30vw;
-    font-size: 2vw;
 }
 
 .footer-contact-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 65vw;
-}
-
-.footer-left span {
-    font-size: 20px;
+    width: 90vw;
     font-family: "Roboto Mono";
-    font-weight: 100;
+    font-size: 2.5vh;
 }
 
-.footer-logo {
-    color:$brown;
-    font-size: 5vw;
+.footer-contact-info p {
+    font-size: 4vh;
 }
 
-.footer-right span {
-    font-size: 2.5vw;
-}
-
-.footer-right a {
+.footer-contact-info a {
+    font-size: 4vh;
     color: $brown;
-    padding: 5px;
 }
 
 #footnote {
@@ -56,5 +39,4 @@ $beige:#FFEDD6;
     font-weight: 100;
     font-size: 2vh;
     color: $brown;
-    padding-bottom:20px;
 }

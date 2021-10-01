@@ -18,7 +18,7 @@ const Cv = (props) => {
         <div className="cv-education page-sections">
           <h2 className="text-header">Education</h2>
           <h3 className="prompt-font-bold">
-            2021 Ironhack, Paris - Web Development Bootcamp, BAC +4
+            2021 Ironhack, Paris - Fullstack Web Development Bootcamp, BAC +4
           </h3>
           <div id="education-list">
             <ul className="prompt-font-thin">
@@ -66,13 +66,13 @@ const Cv = (props) => {
           <p>> Store management from 6 - 90 employees - 5 years experience</p>
           <p>> Training manager - 5 years experience</p>
           <p>
-            >>>Developed Europe wide training and coaching program in
+            >>> Developed Europe wide training and coaching program in
             collaboration with other European training managers
           </p>
           <p>> Visual merchandising - 9 years experience</p>
           <p>> Stock and delivery management - 9 years experience</p>
           <p>
-            >>>Led implementation of new inventory system, increasing on-hand
+            >>> Led implementation of new inventory system, increasing on-hand
             inventory accuracy by 30%
           </p>
           <hr />

@@ -35,9 +35,11 @@ const Home = (props) => {
             Ironhack Paris. I am now looking for a job that will allow me to
             continue my professional journey.
           </p>
-          <NavLink className="learn-more-btn nav-link" to="/Cv">
-            <span>CV ></span>
-          </NavLink>
+          <React.Fragment>
+            <NavLink className="learn-more-btn nav-link" to="/Cv">
+              <span>CV ></span>
+            </NavLink>
+          </React.Fragment>
         </div>
         <ColorGrid />
       </section>
@@ -49,27 +51,27 @@ const Home = (props) => {
           <div className="skills-descriptions">
             <div>
               <h3 className="prompt-font-bold">
-                Diverse Team & <br />
-                Management Experience
+                Diverse Management
+                <br />
+                Experience
               </h3>
+              <h3 className="prompt-font-bold">Continuous Learner</h3>
+              <h3 className="prompt-font-bold">People person</h3>
+            </div>
+
+            <div>
               <p>
                 I've had the opportunity to work with teams of all sizes, in
                 different languages and in different parts of the world. No
                 matter the team dynamic, I am able to adapt myself and my
-                leadership to contribute to a good team.
+                leadership to positively contribute to the team.
               </p>
-            </div>
-            <div>
-              <h3 className="prompt-font-bold">Continuous Learner</h3>
               <p>
-                The technology industry is constantly changing and evolving,
-                which makes continuous learning a big part of the job. Getting
-                out of my comfort zone and trying new things is where I learn
-                best.
+                Part of what pushes me professionally is the desire for
+                continued growth. Getting out of my comfort zone and trying new
+                things is where I learn best. Technology is constantly evolving,
+                which makes continuous learning an important part of the job.
               </p>
-            </div>
-            <div>
-              <h3 className="prompt-font-bold">People person</h3>
               <p>
                 Working in different service industries since the age of 14,
                 I've always loved helping people acheive their goals. I feel a

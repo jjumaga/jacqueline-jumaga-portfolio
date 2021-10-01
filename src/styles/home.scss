@@ -2,12 +2,6 @@ $red:#F2545B;
 $blue:#559CAD;
 $orange:#FFAF47;
 
-.learn-more-btn {
-    display: flex;
-    align-self: flex-end;
-    font-family: "Crimson-text";
-}
-
 .home-about {
     background-color: $orange;
 }
@@ -17,15 +11,25 @@ $orange:#FFAF47;
     background-color: $blue;
 }
 
+.skills-descriptions div {
+    display: flex;
+}
+.skills-descriptions div h3 {
+    width: 33.3%;
+    padding: 5px;
+}
+
+.skills-descriptions div p {
+    width: 33.3%;
+    padding: 10px;
+}
+
 .home-work {
     background-color: $red;
 }
 
-.skills-descriptions {
+.learn-more-btn {
+    align-self: flex-end;
     display: flex;
-}
-
-.skills-descriptions div {
-    width: 33.3%;
-    padding: 5px;
+    font-family: "Crimson-text";
 }
