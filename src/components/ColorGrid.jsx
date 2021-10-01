@@ -5,22 +5,22 @@ const ColorGrid = (props) => {
   return (
     <div className="color-grid">
       <div>
-        <div className="beige-FFEDD6">1</div>
-        <div className="pink-559CAD">2</div>
-        <div className="orange-FFAF47">3</div>
-        <div className="brown-F2545B">4</div>
+        <div className="beige">1</div>
+        <div className="red">2</div>
+        <div className="orange">3</div>
+        <div className="brown">4</div>
       </div>
       <div>
-        <div className="orange-FFAF47">5</div>
-        <div className="brown-F2545B">6</div>
-        <div className="beige-FFEDD6">7</div>
-        <div className="pink-559CAD">8</div>
+        <div className="orange">5</div>
+        <div className="brown">6</div>
+        <div className="beige">7</div>
+        <div className="red">8</div>
       </div>
       <div>
-        <div className="beige-FFEDD6">9</div>
-        <div className="pink-559CAD">10</div>
-        <div className="orange-FFAF47">11</div>
-        <div className="brown-F2545B">12</div>
+        <div className="beige">9</div>
+        <div className="red">10</div>
+        <div className="orange">11</div>
+        <div className="brown">12</div>
       </div>
       <div></div>
     </div>

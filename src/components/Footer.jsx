@@ -9,10 +9,9 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = (props) => {
   return (
-    <footer id="footer-body">
-      <div className="footer-left">
-        <div className="contact-info">
-          <h3 className="footer-logo font-crimson-text">JJ</h3>
+    <footer id="footer">
+      <div className="footer-body footer-left">
+        <div className="footer-contact-info">
           <span>e. j.jumaga@gmail.com</span>
           <span>t. +33 (0)6 76 10 26 28</span>
           <span>Paris 11</span>
@@ -24,8 +23,8 @@ const Footer = (props) => {
         </div>
       </div>
 
-      <div className="footer-right">
-        <span className="font-crimson-text">Keep In Touch</span>
+      <div className="footer-body footer-right">
+        <span className="roboto-mono-font-bold">Keep In Touch</span>
         <div>
           <a href="https://github.com/jjumaga">
             <FontAwesomeIcon icon={faGithub} />

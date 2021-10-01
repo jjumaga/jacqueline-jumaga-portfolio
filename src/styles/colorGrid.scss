@@ -1,3 +1,9 @@
+$beige:#FFEDD6;
+$brown:#482728;
+$red:#F2545B;
+$blue:#559CAD;
+$orange:#FFAF47;
+
 .color-grid {
     display: flex;
     flex-wrap: wrap;
@@ -13,22 +19,22 @@
     width: 12vw;
 }
 
-.orange-FFAF47 {
-    background-color: #FFAF47;
-    color: #FFAF47;
+.orange {
+    background-color: $orange;
+    color: $orange;
 }
 
-.beige-FFEDD6 {
-    background-color: #FFEDD6;
-    color: #FFEDD6;
+.beige {
+    background-color: $beige;
+    color: $beige;
 }
 
-.pink-559CAD {
-    background-color: #559CAD;
-    color: #559CAD;
+.red {
+    background-color: $blue;
+    color: $blue;
 }
 
-.brown-F2545B {
-    background-color: #F2545B;
-    color:#F2545B;
+.brown {
+    background-color: $red;
+    color:$red;
 }

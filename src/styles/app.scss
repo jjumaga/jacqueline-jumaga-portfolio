@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;600&family=Roboto+Mono:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;600&family=Roboto+Mono:wght@100;400;700&display=swap');
+
+$beige:#FFEDD6;
+$brown:#482728;
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +9,82 @@
     
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    color: $brown;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: $beige;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto Mono";
+    font-weight:700;
+}
+
+.page-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 50px;
+    width: 64vw;
+    height: 100vh;
+}
+
+.section-flex{
+    display: flex;
+}
+
+.text-header {
+    font-family: "Roboto Mono";
+    font-weight:700;
+    font-size: 13vh;
+}
+
+.text-sub-header {
+    font-size: 6vh;
+    width: auto;
+    font-family: "Prompt";
+    font-weight: 600;
+}
+
+.descriptions {
+    font-size: 20px;
+    width: 40vw;
+    font-family: "Prompt";
+    font-weight: 200;
+}
+
+.roboto-mono-font-bold {
+    font-family: "Roboto Mono";
+    font-weight:700;
+}
+
+.prompt-font-bold {
+    font-family: "Prompt";
+    font-weight: 600;
+}
+
+.prompt-font-thin {
+    font-family: "Prompt";
+    font-weight: 200;
+}
+
 ul {
     list-style-type: none;
 }
 
+p {
+    font-family: "Prompt";
+    font-weight: 200;
+}
 
+hr {
+    border-color: $brown;
+}

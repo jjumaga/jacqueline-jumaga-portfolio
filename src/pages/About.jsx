@@ -1,12 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/about.scss";
-//import BackHomeButton from "../components/BackHomeButton";
+
+import Footer from "../components/Footer";
 
 const About = (props) => {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div id="about-page">
+      <header className="header" style={{ backgroundColor: "#FFAF47" }}>
+        <h1 className="text-header">About Me</h1>
+      </header>
       <p>
         {" "}
         How we communicate has always fascinated me - what we say, how we say
@@ -25,6 +28,7 @@ const About = (props) => {
       <NavLink className="nav-link" to="/">
         <span>Homepage</span>
       </NavLink>
+      <Footer />
     </div>
   );
 };

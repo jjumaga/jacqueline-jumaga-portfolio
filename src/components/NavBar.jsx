@@ -7,13 +7,13 @@ const NavBar = (props) => {
     <nav id="nav-bar">
       <div>
         <NavLink exact to="/" style={{ textDecoration: "none" }}>
-          <h3 className="logo">JJ</h3>
+          <h3 className="nav-bar-logo">JJ</h3>
         </NavLink>
       </div>
       <ul id="nav-bar-ul">
         <li>
-          <NavLink className="nav-link" to="/About">
-            <span>About</span>
+          <NavLink className="nav-link" to="/Cv">
+            <span>CV</span>
           </NavLink>
         </li>
 

@@ -1,19 +1,30 @@
-#footer-body {
+$brown:#482728;
+$beige:#FFEDD6;
+
+#footer {
+    position:relative;
     display: flex;
 }
 
-.footer-left {
+.footer-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 70vw;
     height: 15vh;
-    background-color:#FFEDD6;
-    color:#482728;
+    background-color:$beige;
 }
 
-.contact-info {
+.footer-left {
+    width: 70vw;
+}
+
+.footer-right {
+    width: 30vw;
+    font-size: 2vw;
+}
+
+.footer-contact-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,31 +38,23 @@
 }
 
 .footer-logo {
-    color:#482728;
-    font-size: 60px;
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 30vw;
-    background-color: #FFAF47;
-    font-size: 30px;
+    color:$brown;
+    font-size: 5vw;
 }
 
 .footer-right span {
-    font-size: 33px;
+    font-size: 2.5vw;
 }
 
 .footer-right a {
-    color: #482728;
+    color: $brown;
     padding: 5px;
 }
 
 #footnote {
     font-family: "Roboto Mono";
     font-weight: 100;
-    color: #482728;
+    font-size: 2vh;
+    color: $brown;
+    padding-bottom:20px;
 }
