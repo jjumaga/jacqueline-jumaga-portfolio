@@ -3,12 +3,6 @@ import { NavLink } from "react-router-dom";
 import ColorGrid from "../components/ColorGrid";
 import Footer from "../components/Footer";
 import "../styles/home.scss";
-//import { Document } from "react-pdf";
-//import cvPdf from "../cv-jacqueline-jumaga-en .pdf";
-
-//const handleClick = (e) => {
-//
-//}
 
 const Home = (props) => {
   return (
