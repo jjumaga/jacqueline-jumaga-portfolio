@@ -15,10 +15,10 @@ function App() {
       <NavBar />
       <ScrollToTop />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Cv" component={Cv} />
-        <Route exact path="/MyWork" component={MyWork} />
-        <Route exact path="/Contact" component={Contact} />
+        <Route path="/" component={Home} />
+        <Route path="/Cv" component={Cv} />
+        <Route path="/MyWork" component={MyWork} />
+        <Route path="/Contact" component={Contact} />
       </Switch>
     </div>
   );
