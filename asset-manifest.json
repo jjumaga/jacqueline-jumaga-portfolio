@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jacqueline-jumaga-portfolio/static/css/main.4797f840.chunk.css",
-    "main.js": "/jacqueline-jumaga-portfolio/static/js/main.ce8a4e83.chunk.js",
-    "main.js.map": "/jacqueline-jumaga-portfolio/static/js/main.ce8a4e83.chunk.js.map",
+    "main.js": "/jacqueline-jumaga-portfolio/static/js/main.70d89883.chunk.js",
+    "main.js.map": "/jacqueline-jumaga-portfolio/static/js/main.70d89883.chunk.js.map",
     "runtime-main.js": "/jacqueline-jumaga-portfolio/static/js/runtime-main.48b6ca41.js",
     "runtime-main.js.map": "/jacqueline-jumaga-portfolio/static/js/runtime-main.48b6ca41.js.map",
     "static/js/2.574111f1.chunk.js": "/jacqueline-jumaga-portfolio/static/js/2.574111f1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.48b6ca41.js",
     "static/js/2.574111f1.chunk.js",
     "static/css/main.4797f840.chunk.css",
-    "static/js/main.ce8a4e83.chunk.js"
+    "static/js/main.70d89883.chunk.js"
   ]
 }
