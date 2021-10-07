@@ -22,7 +22,6 @@ $brown:#482728;
     align-items: center;
     align-self: center;
     justify-content: center;
-    background-color: $beige;
     height: 100vh;
     width: 100vw;
     font-family: "Roboto Mono";
@@ -40,6 +39,13 @@ $brown:#482728;
 
 .section-flex{
     display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:$brown;
+    font-family: "Roboto Mono";
+    font-size: 20px;
 }
 
 .text-header {

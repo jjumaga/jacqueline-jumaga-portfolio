@@ -13,7 +13,7 @@ import "../styles/home.scss";
 const Home = (props) => {
   return (
     <div className="body">
-      <header className="header">
+      <header className="header" style={{ backgroundColor: "#FFEDD6" }}>
         <h1 className="text-header">Jacqueline Jumaga</h1>
         <h2 className="text-sub-header">Frontend Web Developper</h2>
       </header>
@@ -32,11 +32,12 @@ const Home = (props) => {
             industry because it's an ever-growing part of how we communicate
             with each other and the world around us, which has always fascinated
             me. In 2021 I completed a full stack web development bootcamp with
-            Ironhack Paris. I am now looking for a job that will allow me to
-            continue my professional journey.
+            Ironhack Paris. Although I my studies included full stack
+            development, I am most interested in front end development and
+            design.
           </p>
           <React.Fragment>
-            <NavLink className="learn-more-btn nav-link" to="/Cv">
+            <NavLink className=" nav-link" to="/Cv">
               <span>CV ></span>
             </NavLink>
           </React.Fragment>
@@ -46,6 +47,39 @@ const Home = (props) => {
 
       <section className="section-flex">
         <ColorGrid />
+        <div className="home-work page-sections">
+          <div>
+            <h2 className="text-header">Projects</h2>
+            <h3 className="text-sub-header">Portfolio</h3>
+          </div>
+          <p className="descriptions">
+            My studies include full stack development with JavaScript,
+            Express.js, React.js, Node.js, and MongoDB. I am particularly
+            interested in front end development and design.
+          </p>
+          <a
+            className="home-project-links"
+            rel="noreferror"
+            target="_blank"
+            href="https://healthhubironhackproject.herokuapp.com/"
+          >
+            {"<Health Hub/>"}
+          </a>
+          <a
+            className="home-project-links"
+            rel="noreferror"
+            target="_blank"
+            href="https://jjumaga.github.io/Video-Game-Project/"
+          >
+            {"<Far Out Traveller/> "}
+          </a>
+          <NavLink className="nav-link" to="/MyWork">
+            <span>Learn more ></span>
+          </NavLink>
+        </div>
+      </section>
+
+      <section className="section-flex">
         <div className="home-skills page-sections">
           <h2 className="text-header">My skills</h2>
           <div className="skills-descriptions">
@@ -81,33 +115,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="section-flex">
-        <div className="home-work page-sections">
-          <div>
-            <h2 className="text-header">My Work</h2>
-            <h3 className="text-sub-header">Portfolio</h3>
-          </div>
-          <p className="descriptions">
-            My studies include full stack development with JavaScript,
-            Express.js, React.js, Node.js, and MongoDB. I am particularly
-            interested in front end development and design.
-            <br />
-            <b>On my projects:</b>
-            <br />
-            - Far Out Traveller was my first web development project. I focussed
-            on practicing the core of javascript concepts while getting familiar
-            with single page rendering.
-            <br />- Health Hub is a fullstack web application that I completed
-            at the end of my bootcamp. I used React classes and my focus was to
-            better understand the relationship between front and backend
-            management during development.
-          </p>
-          <NavLink className="nav-link" to="/MyWork">
-            <span>Learn more ></span>
-          </NavLink>
-        </div>
+        <ColorGrid />
       </section>
 
       <Footer />

@@ -146,11 +146,6 @@ const Cv = (props) => {
                 Photography
               </p>
             </div>
-            <div>
-              <h3 className="roboto-mono-font-bold">Fun Fact</h3>
-              <br />
-              <p>I tap dance!</p>
-            </div>
           </div>
           <NavLink className="nav-link" to="/">
             <span>Homepage ></span>

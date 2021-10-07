@@ -1,6 +1,8 @@
 $red:#F2545B;
 $blue:#559CAD;
 $orange:#FFAF47;
+$brown:#482728;
+$beige:#FFEDD6;
 
 .home-about {
     background-color: $orange;
@@ -14,6 +16,7 @@ $orange:#FFAF47;
 .skills-descriptions div {
     display: flex;
 }
+
 .skills-descriptions div h3 {
     width: 33.3%;
     padding: 5px;
@@ -32,4 +35,23 @@ $orange:#FFAF47;
     align-self: flex-end;
     display: flex;
     font-family: "Crimson-text";
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:36vw;
+    background-color: $beige;
+}
+
+.home-project-links {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono";
+    width:fit-content;
+    font-weight: 700;
+    font-size: 5vh;
+    color: $brown;
 }

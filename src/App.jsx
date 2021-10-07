@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./styles/app.scss";
 import ScrollToTop from "./components/ScrollToTop";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+//import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
