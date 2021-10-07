@@ -16,10 +16,18 @@ const Footer = (props) => {
           <span>e. j.jumaga@gmail.com</span>
           <span>t. +33 (0)6 76 10 26 28</span>
           <span>Paris 11</span>
-          <a href="https://github.com/jjumaga">
+          <a
+            href="https://github.com/jjumaga"
+            rel="noreferror noopener"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com/in/jacqueline-jumaga-8a0487150/">
+          <a
+            href="https://www.linkedin.com/in/jacqueline-jumaga-8a0487150/"
+            rel="noreferror noopener"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
